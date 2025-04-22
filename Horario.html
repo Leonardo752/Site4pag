@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            -webkit-box-shadow: 10px 13px 17px 3px rgba(0,0,0,0.8); 
+            box-shadow: 10px 13px 17px 3px rgba(209, 163, 163, 0.8);
+            border: 1px solid rgb(212, 212, 212);
+        }
+
+
+        table tbody tr:nth-child(even){ /*Pega tudo que é par*/
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Pag Principal.html">Pagina Principal</a></li>
+                <li><a href="Sobre.html">Sobre a clinica</a></li>
+                <li><a href="Horario.html">Horario de atendimento</a></li>
+                <li><a href="Contatos.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="pp.png" alt="" >
+                
+            </div>
+    
+            <div id="content" >
+                <table  align="center">
+                    <thead>
+                        <th>Horario</th>
+                        <th>Dias</th>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <td>08:00 - 18:00</td>
+                             <td>Segunda a Sexta</td>
+                         </tr>
+                         <tr>
+                             <td>08:00 - 12:00</td>
+                             <td>Sabado</td>
+                         </tr>
+                         <tr>
+                            <td>10:00 - 12:00</td>
+                            <td> Domingo </td>
+                         </tr>
+                     </tbody>
+                </table>
+              </div>
+            <div class="footer">
+                Footer
+                <p>Clínica Saúde Total | Rua Exemplo, 123 - Centro - São Paulo/SP</p>
+                <p>Telefone: (11) 99999-9999 | WhatsApp: (11) 98888-8888</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
